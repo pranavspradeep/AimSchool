@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_MarkReport" targetNamespace="http://tempuri.org/DataSet_MarkReport.xsd" xmlns:mstns="http://tempuri.org/DataSet_MarkReport.xsd" xmlns="http://tempuri.org/DataSet_MarkReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_MarkReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_MarkReport" msprop:Generator_UserDSName="DataSet_MarkReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DT_MarkSheet" msprop:Generator_TableClassName="DT_MarkSheetDataTable" msprop:Generator_TableVarName="tableDT_MarkSheet" msprop:Generator_TablePropName="DT_MarkSheet" msprop:Generator_RowDeletingName="DT_MarkSheetRowDeleting" msprop:Generator_UserTableName="DT_MarkSheet" msprop:Generator_RowChangingName="DT_MarkSheetRowChanging" msprop:Generator_RowEvHandlerName="DT_MarkSheetRowChangeEventHandler" msprop:Generator_RowDeletedName="DT_MarkSheetRowDeleted" msprop:Generator_RowEvArgName="DT_MarkSheetRowChangeEvent" msprop:Generator_RowChangedName="DT_MarkSheetRowChanged" msprop:Generator_RowClassName="DT_MarkSheetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subject_x0020_No" msprop:Generator_ColumnVarNameInTable="columnSubject_No" msprop:Generator_ColumnPropNameInRow="Subject_No" msprop:Generator_ColumnPropNameInTable="Subject_NoColumn" msprop:Generator_UserColumnName="Subject No" type="xs:string" minOccurs="0" />
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" type="xs:string" minOccurs="0" />
+              <xs:element name="Mark" msprop:Generator_ColumnVarNameInTable="columnMark" msprop:Generator_ColumnPropNameInRow="Mark" msprop:Generator_ColumnPropNameInTable="MarkColumn" msprop:Generator_UserColumnName="Mark" type="xs:string" minOccurs="0" />
+              <xs:element name="Grade" msprop:Generator_ColumnVarNameInTable="columnGrade" msprop:Generator_ColumnPropNameInRow="Grade" msprop:Generator_ColumnPropNameInTable="GradeColumn" msprop:Generator_UserColumnName="Grade" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DT_StudDetails" msprop:Generator_TableClassName="DT_StudDetailsDataTable" msprop:Generator_TableVarName="tableDT_StudDetails" msprop:Generator_TablePropName="DT_StudDetails" msprop:Generator_RowDeletingName="DT_StudDetailsRowDeleting" msprop:Generator_UserTableName="DT_StudDetails" msprop:Generator_RowChangingName="DT_StudDetailsRowChanging" msprop:Generator_RowEvHandlerName="DT_StudDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="DT_StudDetailsRowDeleted" msprop:Generator_RowEvArgName="DT_StudDetailsRowChangeEvent" msprop:Generator_RowChangedName="DT_StudDetailsRowChanged" msprop:Generator_RowClassName="DT_StudDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Admission_x0020_No" msprop:Generator_ColumnVarNameInTable="columnAdmission_No" msprop:Generator_ColumnPropNameInRow="Admission_No" msprop:Generator_ColumnPropNameInTable="Admission_NoColumn" msprop:Generator_UserColumnName="Admission No" type="xs:string" minOccurs="0" />
+              <xs:element name="Sudent_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnSudent_Name" msprop:Generator_ColumnPropNameInRow="Sudent_Name" msprop:Generator_ColumnPropNameInTable="Sudent_NameColumn" msprop:Generator_UserColumnName="Sudent Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Standard" msprop:Generator_ColumnVarNameInTable="columnStandard" msprop:Generator_ColumnPropNameInRow="Standard" msprop:Generator_ColumnPropNameInTable="StandardColumn" msprop:Generator_UserColumnName="Standard" type="xs:string" minOccurs="0" />
+              <xs:element name="Division" msprop:Generator_ColumnVarNameInTable="columnDivision" msprop:Generator_ColumnPropNameInRow="Division" msprop:Generator_ColumnPropNameInTable="DivisionColumn" msprop:Generator_UserColumnName="Division" type="xs:string" minOccurs="0" />
+              <xs:element name="Exam" msprop:Generator_ColumnVarNameInTable="columnExam" msprop:Generator_ColumnPropNameInRow="Exam" msprop:Generator_ColumnPropNameInTable="ExamColumn" msprop:Generator_UserColumnName="Exam" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolName" msprop:Generator_ColumnVarNameInTable="columnSchoolName" msprop:Generator_ColumnPropNameInRow="SchoolName" msprop:Generator_ColumnPropNameInTable="SchoolNameColumn" msprop:Generator_UserColumnName="SchoolName" type="xs:string" minOccurs="0" />
+              <xs:element name="SchoolPhNo" msprop:Generator_ColumnVarNameInTable="columnSchoolPhNo" msprop:Generator_ColumnPropNameInRow="SchoolPhNo" msprop:Generator_ColumnPropNameInTable="SchoolPhNoColumn" msprop:Generator_UserColumnName="SchoolPhNo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
